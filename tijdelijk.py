@@ -2,9 +2,9 @@ from helper import decoreer
 
 def print_aanbieding():
     prijzen = {
-        "aardbei" : "3",
-        "vanille" : "4",
-        "chocolade": "5"
+        "aardbei" : 3,
+        "vanille" : 4,
+        "chocolade": 5
     }
 
     aanbieding = prijzen ["aardbei"] * 0.8
@@ -23,5 +23,5 @@ def print_aanbieding():
         else:
             print(el.lower())
 
-decoreer ("Aanbieding")
+decoreer("Aanbieding")
 print_aanbieding()
