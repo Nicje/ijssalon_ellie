@@ -28,7 +28,6 @@ def laag_en_hoog(mijn_lijst):
     return uitvoer
 lijst = 220, 430, 125, 160, 205, 90, 345
 resultaat = laag_en_hoog(lijst)
-print(resultaat)
 
 
 def gemiddelde(mijn_lijst):
@@ -41,7 +40,6 @@ def gemiddelde(mijn_lijst):
 
 lijst = [220, 430, 125, 160, 205, 90, 345]
 resultaat = gemiddelde(lijst)
-print(resultaat)
 
 
 def meervoudig(invoer_lijst):
@@ -50,4 +48,9 @@ def meervoudig(invoer_lijst):
     return uitvoer
 
 invoer_lijst = [10, 5, 3, 2, 1, 9]
-print(meervoudig(invoer_lijst))
+
+
+def combinatie(invoer_lijst_2):
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    uitvoer=mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
