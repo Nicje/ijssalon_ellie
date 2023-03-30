@@ -31,7 +31,7 @@ mijn_dictionary, totaal = presenteer(inkomsten, 0)
 print(mijn_dictionary)
 print(totaal)
 
-with open('boekhouding.csv','w,newline=') as csvfile:
+with open("boekhouding.csv’, 'w',newline=") as csvfile:
     for key, value in inkomsten.items():
         writer = csv.writer(csvfile, delimiter=';')
         writer.writerow([key,value])
